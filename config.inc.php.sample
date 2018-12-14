@@ -1,0 +1,14 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * @brief Define the configuration options
+ */
+abstract class Config
+{
+	const API_URL = 'http://api.supermetrics.com/assignment';
+	const CLIENT_ID = 'x';
+	const CLIENT_EMAIL = 'user@domain.tld';
+	const CLIENT_NAME = 'Firstname';
+	const POST_PAGES = 10;
+}
